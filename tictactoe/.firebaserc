@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "tiempodetictactoe": {
+      "hosting": {
+        "tictactoe": [
+          "tiempodetictactoe"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "tiempodetictactoe"
+  }
+}
