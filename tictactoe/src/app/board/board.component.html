@@ -6,6 +6,10 @@
     Player {{winner}} wins!
 </h2>
 
+<h2 *ngIf="gameMoves === 9">
+    Draw!
+</h2>
+
 <main>
     <square-tds
         *ngFor="let square of squares; let i = index"
